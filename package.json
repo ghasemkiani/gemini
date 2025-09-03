@@ -1,0 +1,16 @@
+{
+  "name": "@ghasemkiani/gemini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@ghasemkiani/base": "github:ghasemkiani/base"
+  }
+}
