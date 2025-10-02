@@ -8,7 +8,7 @@ class Agent extends Obj {
     cutil.extend(this.prototype, {
       fetch,
       _apiKey: null,
-      model: "gemini-2.0-flash",
+      model: "gemini-2.5-flash",
     });
   }
   get apiKey() {
@@ -20,7 +20,7 @@ class Agent extends Obj {
   set apiKey(apiKey) {
     this._apiKey = apiKey;
   }
-  async toGenerateContent(prompt) {
+  async toGenerate(prompt) {
     let agent = this;
     let { fetch } = agent;
     let { apiKey } = agent;
